@@ -1,0 +1,20 @@
+{
+  "name": "custom-poc",
+  "description": "Express Gateway Instance Bootstraped from Command Line",
+  "repository": {},
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node $1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-gateway": "^1.16.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
